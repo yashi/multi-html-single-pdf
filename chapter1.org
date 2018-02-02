@@ -1,0 +1,6 @@
+* Chapter 1
+  :PROPERTIES:
+  :CUSTOM_ID: ch1
+  :END:
+
+The first chapter and ID is ch1.

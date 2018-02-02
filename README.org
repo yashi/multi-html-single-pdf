@@ -1,0 +1,19 @@
+#+Title: Exporting Multiple HTML and a Single PDF
+
+This is a demo code to export multiple HTML files or a single PDF file
+from the same multiple Org files.  Org Mode, as of version 9.1.x, does
+not have a capability to export to multiple files, ie. each chapter on
+each HTML file.
+
+This demo is trying to mimic the capability by using [[https://orgmode.org/org.html#Macro-replacement][Macro replacement]].
+
+Just type =make= should work if your Emacs is setup to use Org Mode,
+HTML and latex exporters.
+
+If you have a version of Emacs in somewhere else, just define =EMACS=.
+
+#+begin_example
+$ make EMACS=~/src/emacs26/src/emacs
+#+end_example
+
+This demo is tested with GNU Emacs 25.2.2 and GNU Emacs 26.0.91.

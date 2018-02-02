@@ -1,0 +1,6 @@
+#+Title: Multi Html and Single PDF (PDF version)
+
+#+MACRO: ch1 [[#ch1][$1]]
+
+#+INCLUDE: chapter1.org
+#+INCLUDE: chapter2.org
